@@ -1,0 +1,7 @@
+{
+  "description": "An ID for a mob like minecraft:creeper and so on. Modded mobs should also work",
+  "oneOf": [
+    { "$ref": "../types/mob.schema.json" },
+    { "type": "array", "items": { "$ref": "../types/mob.schema.json" } }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "description": "True if this is a baby",
+  "type": "boolean"
+}

@@ -1,0 +1,4 @@
+{
+  "description": "True if spawned by a spawner",
+  "type": "boolean"
+}

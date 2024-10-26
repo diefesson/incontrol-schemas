@@ -1,0 +1,4 @@
+{
+  "type": "string",
+  "enum": ["east", "west", "south", "north", "up", "down"]
+}

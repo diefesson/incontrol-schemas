@@ -1,0 +1,4 @@
+{
+  "description": "A json describing a numeric condition that must be valid before this rule can work. See the section on the numeric system for more information",
+  "allOf": [{ "$ref": "../types/number-condition.schema.json" }]
+}

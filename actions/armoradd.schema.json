@@ -1,0 +1,4 @@
+{
+  "description": "This is a floating point number that is added to the armor",
+  "type": "number"
+}

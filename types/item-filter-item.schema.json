@@ -1,0 +1,20 @@
+{
+  "oneOf": [
+    { "$ref": "./item.schema.json" },
+    { "$ref": "./id-with-nbt.schema.json" },
+    {
+      "type": "object",
+      "properties": {
+        "item": { "$ref": "./item.schema.json" },
+        "empty": { "type": "boolean" },
+        "damage": { "$ref": "./expression.schema.json" },
+        "count": { "$ref": "./expression.schema.json" },
+        "tag": { "$ref": "resource-id.schema.json" },
+        "mod": { "$ref": "./namespace.schema.json" },
+        "energy": { "$ref": "./expression.schema.json" },
+        "nbt": { "$ref": "./nbt-filter.schema.json" }
+      },
+      "minProperties": 1
+    }
+  ]
+}

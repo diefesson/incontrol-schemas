@@ -1,0 +1,4 @@
+{
+  "description": "A representation of the item(s) that the player is holding in their main hand (or offhand). Use a correct item filter (or list of item filters)",
+  "allOf": [{ "$ref": "../types/item-filter.schema.json" }]
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Modify the position of the block that is being used by the block test (or the setblock action). This JSON can contain tags like x, y, or z which will be added (as offset) to the original block position or else the boolean tag look in which case the position will be the position the player is looking at (only in case there is a player involved which isn't the case for spawn.json)",
+  "type": "object",
+  "properties": {
+    "x": { "type": "integer" },
+    "y": { "type": "integer" },
+    "z": { "type": "integer" },
+    "look": { "type": "boolean" }
+  }
+}

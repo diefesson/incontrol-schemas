@@ -1,0 +1,4 @@
+{
+  "description": "All phases that must be active for this rule to work. Phases are defined in phases.json. Putting conditions in a phase is more efficient and cleaner",
+  "type": "string"
+}

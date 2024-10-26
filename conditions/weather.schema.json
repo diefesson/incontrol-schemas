@@ -1,0 +1,5 @@
+{
+  "description": "Rain or thunder",
+  "type": "string",
+  "enum": ["rain", "thunder"]
+}

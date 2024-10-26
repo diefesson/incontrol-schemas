@@ -1,0 +1,6 @@
+{
+  "description": "This will succeed rule if a random number is less then this number. So if you want to have a rule that fires with 10%chance then use 0.1 here",
+  "type": "number",
+  "minimum": 0.0,
+  "maximum": 1.0
+}

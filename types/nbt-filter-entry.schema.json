@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "tag": { "type": "string" },
+    "value": { "type": "string" },
+    "contains": { "$ref": "./nbt-filter.schema.json" }
+  },
+  "required": ["tag"],
+  "oneOf": [{ "required": ["value"] }, { "required": ["contains"] }]
+}

@@ -1,0 +1,4 @@
+{
+  "description": "This is a floating point number representing a multiplier for the maximum health of the mob that is spawned. Using 2 here for example would make the spawned mob twice as strong",
+  "type": "number"
+}

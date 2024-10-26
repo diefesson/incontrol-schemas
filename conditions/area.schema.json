@@ -1,0 +1,4 @@
+{
+  "description": "Test if the position is in a certain area (see areas.json)",
+  "type": "string"
+}

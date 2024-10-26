@@ -1,0 +1,16 @@
+{
+  "title": "Numeric Expression",
+  "description": "A few keywords support numeric expressions. These are special expressions that are used to specify integer ranges. For example the daycount and time tests can use this. The following numeric expressions are supported:\n\ngreater or gt: evaluate to true if the number is greater than the specified value\ngreaterOrEqual or ge: evaluate to true if the number is greater than or equal to the specified value\nsmaller or lt: evaluate to true if the number is smaller than the specified value\nsmallerOrEqual or le: evaluate to true if the number is smaller than or equal to the specified value\nequal or eq: evaluate to true if the number is equal to the specified value\nnotEqual or ne: evaluate to true if the number is not equal to the specified value\nrange: evaluate to true if the number is in the specified range\noutsideRange: evaluate to true if the number is outside the specified range\nrepeat: evaluate to true if the number is in the specified cycle",
+  "type": "string",
+  "oneOf": [
+    {
+      "pattern": "(greater|gt|greaterOrEqual|ge|smaller|lt|smallerOrEqual|le|equal|eq|notEqual|ne)\\([0-9]+\\)"
+    },
+    {
+      "pattern": "(range|outsideRange)\\([0-9]+, *[0-9]+\\)"
+    },
+    {
+      "pattern": "repeat\\([0-9]+, *[0-9]+, *[0-9]+\\)"
+    }
+  ]
+}

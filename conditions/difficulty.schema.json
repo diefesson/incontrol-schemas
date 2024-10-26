@@ -1,0 +1,5 @@
+{
+  "description": "One of the following values: easy, normal, hard, peaceful",
+  "type": "string",
+  "enum": ["peaceful", "easy", "normal", "hard"]
+}

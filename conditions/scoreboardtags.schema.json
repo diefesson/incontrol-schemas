@@ -1,0 +1,7 @@
+{
+  "description": "Test for scoreboard tags on the entity (all must be there or any must be there)",
+  "oneOf": [
+    { "type": "string" },
+    { "type": "array", "items": { "type": "string" } }
+  ]
+}

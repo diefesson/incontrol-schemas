@@ -1,0 +1,7 @@
+{
+  "description": "Add scoreboard tags to the spawned entity",
+  "oneOf": [
+    { "type": "string" },
+    { "type": "array", "items": { "type": "string" } }
+  ]
+}

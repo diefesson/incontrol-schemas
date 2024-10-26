@@ -1,0 +1,7 @@
+{
+  "description": "Many conditions are very simple but when testing for items things can be a bit more complicated. That's why there is a specific syntax that can be used when testing on items. In this section we will go over all the possibilities and also present a few examples. In most cases when testing for an item (like test if the player holds a specific item in their hand) you can either use a single item filter or else a list of item filters. Let's talk about the case of an individual item filter. The following possibilities are supported:",
+  "oneOf": [
+    { "$ref": "./item-filter-item.schema.json" },
+    { "type": "array", "items": { "$ref": "./item-filter-item.schema.json" } }
+  ]
+}

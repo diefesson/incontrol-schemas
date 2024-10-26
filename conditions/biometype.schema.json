@@ -1,0 +1,7 @@
+{
+  "description": "The biome type (from the biome dictionary). Examples are WARN, COLD, ICY, DESERT, and DESERT_LEGACY",
+  "oneOf": [
+    { "$ref": "../types/biome-type.schema.json" },
+    { "type": "array", "items": { "$ref": "../types/biome-type.schema.json" } }
+  ]
+}

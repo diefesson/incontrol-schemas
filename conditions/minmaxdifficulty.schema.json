@@ -1,0 +1,6 @@
+{
+  "description": "The local difficulty of the place where the mob will spawn. This is a number between 0 and 4",
+  "type": "number",
+  "minimum": 0.0,
+  "maximum": 4.0
+}

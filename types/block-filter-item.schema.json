@@ -1,0 +1,21 @@
+{
+  "oneOf": [
+    { "$ref": "./block.schema.json" },
+    { "$ref": "./tag-id.schema.json" },
+    {
+      "type": "object",
+      "properties": {
+        "block": { "$ref": "./block.schema.json" },
+        "properties": { "type": "object" },
+        "tag": { "$ref": "./id.schema.json" },
+        "mod": { "$ref": "./namespace.schema.json" },
+        "energy": { "$ref": "./expression.schema.json" },
+        "contains": { "$ref": "./item-filter.schema.json" },
+        "side": { "$ref": "./side.schema.json" }
+      },
+      "dependencies": {
+        "properties": ["block"]
+      }
+    }
+  ]
+}

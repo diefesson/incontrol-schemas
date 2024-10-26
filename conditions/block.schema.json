@@ -1,0 +1,4 @@
+{
+  "description": "A block filter as explained above",
+  "allOf": [{ "$ref": "../types/block-filter.schema.json" }]
+}

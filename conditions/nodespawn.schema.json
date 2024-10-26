@@ -1,0 +1,4 @@
+{
+  "description": "If this is given the mob will not despawn. Be careful with this!",
+  "type": "boolean"
+}

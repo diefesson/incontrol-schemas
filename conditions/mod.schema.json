@@ -1,0 +1,7 @@
+{
+  "description": "A mod id. By using this you can block spawns of mobs that belong to some mod. Use minecraft for vanilla mobs",
+  "oneOf": [
+    { "$ref": "../types/mod.schema.json" },
+    { "type": "array", "items": { "$ref": "../types/mod.schema.json" } }
+  ]
+}

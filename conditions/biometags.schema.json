@@ -1,0 +1,7 @@
+{
+  "description": "ONLY for 1.19! This is a biome tag (or list of tags) which will be used to match with the biome. Example tags are: minecraft:is_ocean, minecraft:is_hill, minecraft:has_structure/igloo, minecraft:allows_surface_slime_spawns, forge:is_hot, forge:is_cold, forge:is_wet, ... and a LOT more",
+  "oneOf": [
+    { "$ref": "../types/biome-tag.schema.json" },
+    { "type": "array", "items": { "$ref": "../types/biome-tag.schema.json" } }
+  ]
+}

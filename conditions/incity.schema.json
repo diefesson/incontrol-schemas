@@ -1,0 +1,4 @@
+{
+  "description": "Check if the current position is in a city, street, or city sphere",
+  "type": "boolean"
+}

@@ -1,0 +1,4 @@
+{
+  "description": "This is a floating point number representing a multiplier for the speed of the mob",
+  "type": "number"
+}

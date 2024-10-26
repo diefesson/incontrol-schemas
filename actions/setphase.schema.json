@@ -1,0 +1,4 @@
+{
+  "description": "This is a string representing a phase that will be set",
+  "type": "string"
+}

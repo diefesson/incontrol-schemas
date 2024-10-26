@@ -1,0 +1,5 @@
+{
+  "description": "This can be used to test the value of a (player) state with a string like this state=value (NOT IMPLEMENTED YET IN 1.16)",
+  "type": "string",
+  "pattern": ".+=.+"
+}

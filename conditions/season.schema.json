@@ -1,0 +1,4 @@
+{
+  "description": "Check the current season (NOT IMPLEMENTED IN 1.16)",
+  "type": "boolean"
+}

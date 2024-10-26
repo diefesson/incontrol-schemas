@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "properties": {
+    "setphase": { "$ref": "../actions/setphase.schema.json" },
+    "clearphase": { "$ref": "../actions/clearphase.schema.json" },
+    "togglephase": { "$ref": "../actions/togglephase.schema.json" },
+    "changenumber": { "$ref": "../actions/changenumber.schema.json" },
+    "customevent": { "$ref": "../actions/customevent.schema.json" },
+    "result": { "$ref": "../actions/result.schema.json" },
+    "nbt": { "$ref": "../actions/nbt.schema.json" },
+    "customname": { "$ref": "../actions/customname.schema.json" },
+    "healthmultiply": { "$ref": "../actions/healthmultiply.schema.json" },
+    "healthadd": { "$ref": "../actions/healthadd.schema.json" },
+    "healthset": { "$ref": "../actions/healthset.schema.json" },
+    "speedmultiply": { "$ref": "../actions/speedmultiply.schema.json" },
+    "speedadd": { "$ref": "../actions/speedadd.schema.json" },
+    "speedset": { "$ref": "../actions/speedset.schema.json" },
+    "damagemultiply": { "$ref": "../actions/damagemultiply.schema.json" },
+    "damageadd": { "$ref": "../actions/damageadd.schema.json" },
+    "damageset": { "$ref": "../actions/damageset.schema.json" },
+    "armormultiply": { "$ref": "../actions/armormultiply.schema.json" },
+    "armoradd": { "$ref": "../actions/armoradd.schema.json" },
+    "armorset": { "$ref": "../actions/armorset.schema.json" },
+    "armortoughnessmultiply": {
+      "$ref": "../actions/armortoughnessmultiply.schema.json"
+    },
+    "armortoughnessadd": { "$ref": "../actions/armortoughnessadd.schema.json" },
+    "armortoughnessset": { "$ref": "../actions/armortoughnessset.schema.json" },
+    "attackspeedmultiply": {
+      "$ref": "../actions/attackspeedmultiply.schema.json"
+    },
+    "attackspeedadd": { "$ref": "../actions/attackspeedadd.schema.json" },
+    "attackspeedset": { "$ref": "../actions/attackspeedset.schema.json" },
+    "followrangemultiply": {
+      "$ref": "../actions/followrangemultiply.schema.json"
+    },
+    "followrangeadd": { "$ref": "../actions/followrangeadd.schema.json" },
+    "followrangeset": { "$ref": "../actions/followrangeset.schema.json" },
+    "angry": { "$ref": "../actions/angry.schema.json" },
+    "potion": { "$ref": "../actions/potion.schema.json" },
+    "helditem": { "$ref": "../actions/helditem.schema.json" },
+    "armorboots": { "$ref": "../actions/armorboots.schema.json" },
+    "armorhelmet": { "$ref": "../actions/armorhelmet.schema.json" },
+    "armorlegs": { "$ref": "../actions/armorlegs.schema.json" },
+    "armorchest": { "$ref": "../actions/armorchest.schema.json" }
+  }
+}

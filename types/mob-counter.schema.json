@@ -1,0 +1,42 @@
+{
+  "title": "Mob Counter",
+  "description": "The maxcount and mincount tags to control mob spawning can be either a simple number or string containing a number and a mob, but it can also be a more complex JSON with various conditions",
+  "type": "object",
+  "properties": {
+    "amount": {
+      "description": "The amount to compare with (can be scaled!)",
+      "type": "integer",
+      "minimum": 0
+    },
+    "perplayer": {
+      "description": "This is true the amount will be scaled with the amount of players present",
+      "type": "boolean"
+    },
+    "perchunk": {
+      "description": "This is true the amount will be scaled with the amount of loaded chunks divided by 289 (this is how vanilla mobcap works)",
+      "type": "boolean"
+    },
+    "mod": {
+      "description": "This is set all mobs of a given mod are counted (can be used in combination with hostile, passive, or all)",
+      "type": "string",
+      "pattern": "[a-z0-9_\\-\\.]+"
+    },
+    "hostile": {
+      "description": "This is set all hostile mobs are counted",
+      "type": "boolean"
+    },
+    "passive": {
+      "description": "This is set all passive mobs are counted",
+      "type": "boolean"
+    },
+    "all": {
+      "description": "This is set all mobs are counted",
+      "type": "boolean"
+    },
+    "mob": {
+      "description": "This is a single mob or a list of mobs. If this is present only those mobs are counted",
+      "allOf": [{ "$ref": "./id.schema.json" }]
+    }
+  },
+  "minProperties": 1
+}

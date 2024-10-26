@@ -1,0 +1,4 @@
+{
+  "description": "Allows you to add NBT to a spawned mob",
+  "type": "object"
+}

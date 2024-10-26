@@ -1,0 +1,4 @@
+{
+  "description": "True if spawned by the In Control event system (events.json)",
+  "type": "boolean"
+}

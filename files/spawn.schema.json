@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "www.github.com/diefesson/incontrol-schemas/files/spawn.json",
+  "type": "array",
+  "items": { "$ref": "../rules/spawn.schema.json" }
+}

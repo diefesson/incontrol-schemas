@@ -1,0 +1,4 @@
+{
+  "description": "A check that is specific to the entity implementation. This is called by Minecraft automatically if you return default as the result of this rule. For many mobs this check will do a test if the mob would collide with blocks after spawning",
+  "type": "boolean"
+}

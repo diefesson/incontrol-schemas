@@ -1,0 +1,5 @@
+{
+  "description": "The minimum or maximum distance (in minecraft units) to the spawn point in the world",
+  "type": "number",
+  "minimum": 0.0
+}

@@ -1,0 +1,4 @@
+{
+  "description": "Check if an item is in a bauble slot (NOT IMPLEMENTED YET IN 1.16)",
+  "allOf": [{ "$ref": "../types/item-filter.schema.json" }]
+}

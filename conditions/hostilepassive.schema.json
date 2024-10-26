@@ -1,0 +1,4 @@
+{
+  "description": "Matching only hostile or passive mobs",
+  "type": "boolean"
+}

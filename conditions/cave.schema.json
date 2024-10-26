@@ -1,0 +1,4 @@
+{
+  "description": "True if we are in a cave. This is a more expensive test that tries to test if we are in a cave by checking if the block in all six directions is one that can occur in a cave",
+  "type": "boolean"
+}

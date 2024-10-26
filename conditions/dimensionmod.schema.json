@@ -1,0 +1,7 @@
+{
+  "description": "The mod of the dimension. You can use this to have a rule work in all dimensions from a given mod",
+  "oneOf": [
+    { "$ref": "../types/namespace.schema.json" },
+    { "type": "array", "items": { "$ref": "../types/namespace.schema.json" } }
+  ]
+}

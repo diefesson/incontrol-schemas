@@ -1,0 +1,4 @@
+{
+  "description": "Uses a numeric expression to test the height at which the mob will spawn",
+  "allOf": [{ "$ref": "../types/numeric-expression.schema.json" }]
+}

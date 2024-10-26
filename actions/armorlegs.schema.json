@@ -1,0 +1,10 @@
+{
+  "description": "is either a single string or a list of strings representing random armor that the spawned mob will wear",
+  "oneOf": [
+    { "$ref": "../types/weighted-item.schema.json" },
+    {
+      "type": "array",
+      "items": { "$ref": "../types/weighted-item.schema.json" }
+    }
+  ]
+}

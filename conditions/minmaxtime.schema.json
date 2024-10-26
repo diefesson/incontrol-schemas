@@ -1,0 +1,6 @@
+{
+  "description": "The time of the day (a number between 0 and 23999)",
+  "type": "integer",
+  "minimum": 0,
+  "maximum": 23999
+}

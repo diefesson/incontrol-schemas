@@ -1,0 +1,4 @@
+{
+  "description": "Allows you to set a custom name for the spawned mob",
+  "type": "string"
+}

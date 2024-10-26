@@ -1,0 +1,7 @@
+{
+  "description": "this is either a single string or a list of strings. Every string represents a potion effect which is indicated like this: <potion>,<duration>,<amplifier>. For example \"minecraft:invisibility,10,1\"",
+  "oneOf": [
+    { "$ref": "../types/potion.schema.json" },
+    { "type": "array", "items": { "$ref": "../types/potion.schema.json" } }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "description": "This is true if the day counter is a multiple of the given parameter. It also supports an expression in which case the expression is evaluated (see more on numeric expressions above in this wiki)",
+  "oneOf": [
+    { "type": "integer", "minimum": 0 },
+    { "$ref": "../types/numeric-expression.schema.json" }
+  ]
+}

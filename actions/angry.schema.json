@@ -1,0 +1,4 @@
+{
+  "description": "this is a boolean that indicates if the mob will be angry at and/or target the nearest player. For zombie pigman this will make them angry at the player immediately. Same for enderman and wolves",
+  "type": "boolean"
+}

@@ -1,0 +1,7 @@
+{
+  "description": "The dimension of the current block or player (for example minecraft:overworld)",
+  "oneOf": [
+    { "$ref": "../types/dimension.schema.json" },
+    { "type": "array", "items": { "$ref": "../types/dimension.schema.json" } }
+  ]
+}

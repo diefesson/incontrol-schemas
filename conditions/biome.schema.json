@@ -1,0 +1,7 @@
+{
+  "description": "The biome of the current block (like minecraft:plains for example)",
+  "oneOf": [
+    { "$ref": "../types/biome.schema.json" },
+    { "type": "array", "items": { "$ref": "../types/biome.schema.json" } }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Can be equal to 'position', 'finalize', 'onjoin', or 'despawn'. Default is 'position'",
+  "oneOf": [
+    {
+      "const": "position",
+      "description": "This is used to check if a mob is allowed to spawn in general. It's called by vanilla whenever a mob is about to spawn"
+    },
+    {
+      "const": "finalize",
+      "description": "Rules in this category are checked whenever a mob joins the world. This is a stronger check because it's also fired for spawn eggs and when a mob enters another dimension"
+    },
+    {
+      "const": "onjoin",
+      "description": "This is the final step in spawning a mob. Rules in this category can change stats or equipment of the mob. You can also still cancel the spawn here"
+    },
+    {
+      "const": "despawn",
+      "description": "This is called whenever a mob is about to despawn. You can use this to prevent despawning"
+    }
+  ],
+  "default": "position"
+}

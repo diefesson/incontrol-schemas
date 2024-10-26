@@ -1,0 +1,7 @@
+{
+  "description": "Check if the current position is in a specific building or multibuilding",
+  "oneOf": [
+    { "type": "string" },
+    { "type": "array", "items": { "type": "string" } }
+  ]
+}

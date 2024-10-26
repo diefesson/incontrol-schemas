@@ -1,0 +1,4 @@
+{
+  "description": "This is a string representing a change for a number. See the number system section for more information",
+  "allOf": [{ "$ref": "../types/number-change.schema.json" }]
+}

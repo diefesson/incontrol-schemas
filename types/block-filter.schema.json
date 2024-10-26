@@ -1,0 +1,7 @@
+{
+  "description": "Similarly to item filters there is also the block condition that can test on the existence of a specific block. Like with items it is possible to specify a list or a single block filter. Here are the possibilities on an individual block filter",
+  "oneOf": [
+    { "$ref": "./block-filter-item.schema.json" },
+    { "type": "array", "items": { "$ref": "./block-filter-item.schema.json" } }
+  ]
+}

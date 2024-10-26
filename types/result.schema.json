@@ -1,0 +1,4 @@
+{
+  "type": "string",
+  "enum": ["allow", "default", "deny", "deny_with_actions"]
+}

@@ -1,0 +1,10 @@
+{
+  "description": "this is either a single string or a list of strings. Every string represents a possible item that the spawned mob will carry in its hand. This works only with mobs that allow this like skeletons and zombies. You can also specify a weight with this by adding <number>= in front of the string. Like this: \"1=minecraft:diamond_sword\", \"2=minecraft:iron_sword\"",
+  "oneOf": [
+    { "$ref": "../types/weighted-item.schema.json" },
+    {
+      "type": "array",
+      "items": { "$ref": "../types/weighted-item.schema.json" }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "description": "True if the block can see the sky (not in a cave)",
+  "type": "boolean"
+}

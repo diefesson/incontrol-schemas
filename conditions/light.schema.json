@@ -1,0 +1,4 @@
+{
+  "description": "Uses a numeric expression to test the light level on the given block",
+  "allOf": [{ "$ref": "../types/numeric-expression.schema.json" }]
+}

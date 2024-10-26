@@ -1,0 +1,4 @@
+{
+  "allOf": [{ "$ref": "./namespace.schema.json" }],
+  "examples": ["minecraft"]
+}

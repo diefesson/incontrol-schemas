@@ -1,0 +1,4 @@
+{
+  "description": "Uses a numeric expression to test the time of the day (see the numeric expression section higher up in this wiki)",
+  "allOf": [{ "$ref": "../types/numeric-expression.schema.json" }]
+}

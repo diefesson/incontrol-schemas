@@ -1,0 +1,5 @@
+{
+  "title": "Expression",
+  "description": "In some of the conditions it is possible to use expressions. An expression is basically a string specifying some test to do on an integer value.",
+  "pattern": "(>|>=|<|<=|=|!=)[0-9]+"
+}

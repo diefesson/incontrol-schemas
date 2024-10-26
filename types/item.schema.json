@@ -1,0 +1,4 @@
+{
+  "allOf": [{ "$ref": "./id.schema.json" }],
+  "examples": ["minecraft:wooden_sword"]
+}

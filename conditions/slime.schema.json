@@ -1,0 +1,4 @@
+{
+  "description": "true if this is a slime chunk (only for 1.18 or higher)",
+  "type": "boolean"
+}

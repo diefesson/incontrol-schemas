@@ -1,0 +1,22 @@
+{
+  "type": "string",
+  "enum": [
+    "none",
+    "beach",
+    "desert",
+    "extreme_hills",
+    "forest",
+    "icy",
+    "jungle",
+    "mesa",
+    "mushroom",
+    "nether",
+    "ocean",
+    "plains",
+    "river",
+    "savanna",
+    "swamp",
+    "taiga",
+    "the_end"
+  ]
+}

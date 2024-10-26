@@ -1,0 +1,4 @@
+{
+  "description": "Check if the current position is in a building or multibuilding",
+  "type": "boolean"
+}

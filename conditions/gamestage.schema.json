@@ -1,0 +1,4 @@
+{
+  "description": "The current game stage. When a player is not really present (like with spawn.json) the closest player is used",
+  "type": "string"
+}

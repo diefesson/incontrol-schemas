@@ -1,0 +1,4 @@
+{
+  "description": "Test if we are in any structure",
+  "type": "boolean"
+}

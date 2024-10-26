@@ -1,0 +1,10 @@
+{
+  "description": "NOT for 1.19! One of the following values: none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, the_end, beach, forest, ocean, desert, river, swamp, mushroom, nether. This represents the category of the current biome",
+  "oneOf": [
+    { "$ref": "../types/biome-category.schema.json" },
+    {
+      "type": "array",
+      "items": { "$ref": "../types/biome-category.schema.json" }
+    }
+  ]
+}

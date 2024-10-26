@@ -1,0 +1,8 @@
+{
+  "description": "String value that is either a number in which case it will count how many mobs of the given class are already in the world or else of the form <amount>,<mob> to count the number of mobs of that type. That way you can have a rule file based on the number of mobs already present. Note that instead of this syntax you can also use the JSON mob counter syntax as explained above",
+  "oneOf": [
+    { "type": "integer", "minimum": 0 },
+    { "$ref": "../types/mob-counter-string.schema.json" },
+    { "$ref": "../types/mob-counter.schema.json" }
+  ]
+}

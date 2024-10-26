@@ -1,0 +1,4 @@
+{
+  "description": "Indicates the minimum (inclusive) or maximum height at which this rule will fire",
+  "type": "integer"
+}

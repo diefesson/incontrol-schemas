@@ -1,0 +1,7 @@
+{
+  "description": "The name of the structure to test for. This way you can make sure a rule only fires in a village for example. Some examples are minecraft:mineshaft, minecraft:village, and so on. Modded structures should also work",
+  "oneOf": [
+    { "$ref": "../types/structure.schema.json" },
+    { "type": "array", "items": { "$ref": "../types/structure.schema.json" } }
+  ]
+}
