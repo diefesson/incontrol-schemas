@@ -1,4 +1,5 @@
 {
+  "description": "this is a modifier for both energy and contains. If present it will indicate the side from which we want to examine the energy or inventory contents. If not present the 'null' side is used. This should be a string like east, west, south, north, up, or down.",
   "type": "string",
   "enum": ["east", "west", "south", "north", "up", "down"]
 }

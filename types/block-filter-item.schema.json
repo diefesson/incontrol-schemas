@@ -5,17 +5,37 @@
     {
       "type": "object",
       "properties": {
-        "block": { "$ref": "./block.schema.json" },
-        "properties": { "type": "object" },
-        "tag": { "$ref": "./id.schema.json" },
-        "mod": { "$ref": "./namespace.schema.json" },
-        "energy": { "$ref": "./expression.schema.json" },
-        "contains": { "$ref": "./item-filter.schema.json" },
+        "block": {
+          "description": "a block ID (like minecraft:sand or rftools:powercell)",
+          "$ref": "./block.schema.json"
+        },
+        "properties": {
+          "description": "(only if block is used). This is a JSON array with properties to match against. As soon as this is present a blockstate will be constructed made out of the block and the properties specified here and the match has to be exact. So properties that are not specified here will be put to their default value",
+          "$ref": "./block-properties.schema.json"
+        },
+        "tag": {
+          "description": "a string indicating a tag (for example forge:barrels/wooden, minecraft:planks, ...)",
+          "$ref": "./tag.schema.json"
+        },
+        "mod": {
+          "description": "a string indicating the modid for the block",
+          "$ref": "./namespace.schema.json"
+        },
+        "energy": {
+          "description": "an expression which will be evaluated to the amount of Forge Energy present in the block",
+          "$ref": "./expression.schema.json"
+        },
+        "contains": {
+          "description": "either a single JSON object or else an array of JSON objects representing item filters as explained in the item filter section. The contains test will succeed if it finds any matching item in the inventory (if the block to test actually represents an inventory)",
+          "$ref": "./item-filter.schema.json"
+        },
         "side": { "$ref": "./side.schema.json" }
       },
       "dependencies": {
         "properties": ["block"]
-      }
+      },
+      "minProperties": 1,
+      "examples": [{}]
     }
   ]
 }

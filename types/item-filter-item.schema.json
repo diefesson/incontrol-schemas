@@ -5,16 +5,40 @@
     {
       "type": "object",
       "properties": {
-        "item": { "$ref": "./item.schema.json" },
-        "empty": { "type": "boolean" },
-        "damage": { "$ref": "./expression.schema.json" },
-        "count": { "$ref": "./expression.schema.json" },
-        "tag": { "$ref": "resource-id.schema.json" },
-        "mod": { "$ref": "./namespace.schema.json" },
-        "energy": { "$ref": "./expression.schema.json" },
-        "nbt": { "$ref": "./nbt-filter.schema.json" }
+        "item": {
+          "description": "an item ID (like minecraft:sand or rftools:powercell)",
+          "$ref": "./item.schema.json"
+        },
+        "empty": {
+          "description": "a boolean (true or false) indicating if the item is empty or not. If this is present no other tags will be considered",
+          "type": "boolean"
+        },
+        "damage": {
+          "description": "an expression (see above) which will be evaluated on the damage from the item",
+          "$ref": "./expression.schema.json"
+        },
+        "count": {
+          "description": "an expression which will be evaluated on the number of items in the stack",
+          "$ref": "./expression.schema.json"
+        },
+        "tag": {
+          "description": "a string indicating a block tag (for example minecraft:stone, forge:bookshelves, ...)",
+          "$ref": "resource-id.schema.json"
+        },
+        "mod": {
+          "description": "a string indicating the modid for the item",
+          "$ref": "./namespace.schema.json"
+        },
+        "energy": {
+          "description": "an expression which will be evaluated to the amount of Forge Energy present in the item",
+          "$ref": "./expression.schema.json"
+        },
+        "nbt": {
+          "$ref": "./nbt-filter.schema.json"
+        }
       },
-      "minProperties": 1
+      "minProperties": 1,
+      "examples": [{}]
     }
   ]
 }

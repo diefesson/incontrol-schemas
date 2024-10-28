@@ -1,9 +1,18 @@
 {
   "type": "object",
   "properties": {
-    "tag": { "type": "string" },
-    "value": { "type": "string" },
-    "contains": { "$ref": "./nbt-filter.schema.json" }
+    "tag": {
+      "description": "the name of the NBT tag to test on (don't confuse this with the 'tag' above)",
+      "type": "string"
+    },
+    "value": {
+      "description": "the stringified value of the NBT tag to test on",
+      "type": "string"
+    },
+    "contains": {
+      "description": "use this instead of value in case the tag represents a list. The value after contains should be a JSON array which in turn contains nbt matching tags like what we're describing now (see example later to make this more clear)",
+      "$ref": "./nbt-filter.schema.json"
+    }
   },
   "required": ["tag"],
   "oneOf": [{ "required": ["value"] }, { "required": ["contains"] }]

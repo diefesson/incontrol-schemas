@@ -1,4 +1,5 @@
 {
+  "description": "a JSON array. Every object in this array supports the following tags",
   "type": "array",
   "items": { "$ref": "./nbt-filter-entry.schema.json" }
 }

@@ -1,0 +1,4 @@
+{
+  "allOf": [{ "$ref": "./id.schema.json" }],
+  "examples": ["c:storage_blocks/iron"]
+}

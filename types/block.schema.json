@@ -1,4 +1,4 @@
 {
   "allOf": [{ "$ref": "./id.schema.json" }],
-  "examples": ["minecraft:dirt"]
+  "examples": ["minecraft:sand", "rftools:powercell"]
 }
